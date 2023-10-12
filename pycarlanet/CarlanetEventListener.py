@@ -12,7 +12,8 @@ Listener for OMNeT world, note, every parameters gave as in input is a String, s
 class SimulatorStatus(enum.Enum):
     RUNNING = 0
     FINISHED_OK = 1
-    FINISHED_TIME_LIMIT = 2
+    FINISHED_ACCIDENT = 2
+    FINISHED_TIME_LIMIT = 3
     FINISHED_ERROR = -1
 
 
